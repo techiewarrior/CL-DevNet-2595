@@ -1,5 +1,5 @@
-# Take initial snapshot of the operational state of the device
-# and save the output to a file
+# Take initial snapshot of the operational state of the network device
+# and save the output to a file.
 
 *** Settings ***
 # Importing test libraries, resource files and variable files.
@@ -9,7 +9,7 @@ Library        pyats.robot.pyATSRobot
 
 *** Variables ***
 # Define the pyATS testbed file to use for this run
-${testbed}     working-tb.yaml 
+${testbed}     working-tb.yaml
 
 *** Test Cases ***
 # Creating test cases from available keywords.
